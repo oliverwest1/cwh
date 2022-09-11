@@ -48,7 +48,9 @@ before this cmd change something in contact.htm file
 
 git commit -f [ye aap ki sari ki sari modified files last commit se match kra de ga agr un main kuch changing hui ho gi to wo last commit k sath un sari files ko owerwritd kr de ga]
 
+git log
 
+git log -p -5 	//agr aap 1000 commit files main se sirf last 5 commit k logs dekhna chaty ho(press q after this cmd for quit) //very usefull
 
 
 
