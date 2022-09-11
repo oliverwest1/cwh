@@ -63,6 +63,8 @@ git diff --staged 	//Stagged area ko Last commit k sath compare krny k liye
 
 git commit -a -m "Skip stagged" 		//Skip stagging area and directly commit all files
 
+git log
+
 
 
 
