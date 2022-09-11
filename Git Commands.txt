@@ -74,6 +74,8 @@ git rm	//remove file from working area and stagging area
 
 git rm --cached wast.htm //file ko folder se remove nahi kary ga bas stagging area se hata de gi ye cmd OR wo file untracked area main chali jaye gi
 
+git log -p -1 [last file ka lig -1]
+
 
 
 
