@@ -78,9 +78,9 @@ git log -p -1 [last file ka lig -1]
 
 git status -s 	//[green M (file stagging area main modified hy) Red M (file working tree main modified hy)]
 
+mkdir logs //create logs folder/directory
 
-
-
+.gitignore name wali file k andr ja kr agr hum kisi b file ka naam likh dain toh git us file ko ignore kry ga or track b nahi kry ga [example agr .gitignore file main (mylogs.log) likh dia jaye toh asi kisi b file ko track nhi kry ga
 
 
 
