@@ -79,8 +79,6 @@ git log -p -1 [last file ka lig -1]
 git status -s 	//[green M (file stagging area main modified hy) Red M (file working tree main modified hy)]
 
 
-s
-
 
 
 
