@@ -65,6 +65,11 @@ git commit -a -m "Skip stagged" 		//Skip stagging area and directly commit all f
 
 git log
 
+ls 	//show all files in folder
+
+touch wast.htm
+
+
 
 
 
