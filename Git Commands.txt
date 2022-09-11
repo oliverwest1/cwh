@@ -87,7 +87,10 @@ mkdir logs //create logs folder/directory
 /mylogs.log 	//jaha se tree start ho raha sirf waha pr mojood file ko ignore kry ga kisi folder main pari mylog.log file ko ignore nahi kry ga ye (/slash)
 git add -A
 git status
-.gitignore
+.gitignore ka matlab
+* all
+/root directory
+*.cpp ignore all cpp extensions files
 
 
 
