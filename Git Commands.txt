@@ -46,6 +46,8 @@ clear 	//clear terminal
 before this cmd change something in contact.htm file
 [git checkout contact.htm]	//agrkoi ghalti se aap ki file main kuch changes kr deta hay to aap us file ko agr commit nahi hui to recover kr sakty hain
 
+git commit -f [ye aap ki sari ki sari modified files last commit se match kra de ga agr un main kuch changing hui ho gi to wo last commit k sath un sari files ko owerwritd kr de ga]
+
 
 
 
