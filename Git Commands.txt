@@ -82,6 +82,8 @@ mkdir logs //create logs folder/directory
 
 .gitignore name wali file k andr ja kr agr hum kisi b file ka naam likh dain toh git us file ko ignore kry ga or track b nahi kry ga [example agr .gitignore file main (mylogs.log) likh dia jaye toh asi kisi b file ko track nhi kry ga
 
+
+*/ye sab .gitignore file main ja kr likny se e git files or folders ko ignore kry ga
 .gitignore file main agr
 *.log //likh diya jaye to sari files jinki extension .log hy wo ignore ho jae gi
 /mylogs.log 	//jaha se tree start ho raha sirf waha pr mojood file ko ignore kry ga kisi folder main pari mylog.log file ko ignore nahi kry ga ye (/slash)
@@ -91,7 +93,7 @@ git status
 * all
 /root directory
 *.cpp ignore all cpp extensions files
-
+ignore/ 	[ignore folder from root tree]
 
 
 
