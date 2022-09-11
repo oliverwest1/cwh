@@ -1,0 +1,91 @@
+ls
+pwd
+git config --global user.name Umer		//For first time install git type this cmd to enter username
+git config --global user.email Umer		//For first time install git type this cmd to enter email
+
+code . 	Open VS code
+
+git init 	To initialize the folder from begining
+
+ls -lart 	Shows all hidden folders in a directory
+
+git status	Shows file status in folder
+
+git add index.htm		To change index.htm from Untracket to Staged area
+
+Press Tab to auto complete file name after entring in(index.htm) insted of full name type
+
+git status (if file name is green its means its staged)
+
+git commit 		//Initial Commit
+after this command Type(Initial commit and press [esc and enter :wq] and press Enter)
+This msg should be show after git commit if not try again git commit cmd
+{$ git commit
+[master (root-commit) 0ec283a] Initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.htm}
+
+git status
+
+touch about.htm [touch cmd create blank files]
+touch about.htm contact.htm home.htm //create multiple files at once
+
+git status
+
+git add -A 		\\ADD all files in git once
+
+git status
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
