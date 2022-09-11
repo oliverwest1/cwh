@@ -70,10 +70,9 @@ ls 	//show all files in folder
 touch wast.htm
 [git add -A] 	//koi b new file bnany k baad 1 martba toh ye cmd likhni hi pary gi phir hi wo es file ko track kary ga
 
+git rm	//remove file from working area and stagging area
 
-
-
-
+git rm --cached //file ko folder se remove nahi kary ga bas stagging area se hata de gi ye cmd
 
 
 
