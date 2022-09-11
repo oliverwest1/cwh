@@ -40,7 +40,37 @@ if you delete or modifi files then you must [git add -A] to staged the modified 
 
 [git commit -m "Added more htmls"] 	\\asa krny se hmain commit krny pr new window pop up b nahi aye ga or hmain esc :wq b nahi likhna pary ga agr ham -m ka use kr k double quote main kuch text likh dain
 
- 
+clear 	//clear terminal
+
+
+before this cmd change something in contact.htm file
+[git checkout contact.htm]	//agrkoi ghalti se aap ki file main kuch changes kr deta hay to aap us file ko agr commit nahi hui to recover kr sakty hain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
