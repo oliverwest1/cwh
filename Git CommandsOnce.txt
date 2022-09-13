@@ -1,0 +1,74 @@
+ls
+pwd
+git config --global user.name Umer
+git config --global user.email Umer
+code .
+git init
+ls -lart
+git status
+git add index.htm
+git status
+git commit
+//Initial commit [TAB :wq]
+git status
+touch about.htm contact.htm home.htm
+git status
+git add -A
+git status
+if you delete or modifi files then you must [git add -A] to staged the modified or deleted files
+git commit -m "Added more htmls"
+clear
+git checkout contact.htm
+git commit -f
+git log
+git log -p -5
+git diff
+git add -A
+git diff --staged
+git checkout -f
+git commit -a -m "Skip stagged"
+git log
+touch wast.htm
+git add -A
+git rm
+git rm --cached wast.htm
+git log -p -1
+git status -s
+mkdir logs
+*/
+*.log
+/mylogs
+git add -A
+git status
+/root directory
+*.cpp
+ignore/
+
+========================================================
+BRANCHES
+=========================================================
+git branch
+git branch feature1
+git branch
+git checkout feature1
+git branch
+git status
+git checkout master
+git status
+git log -p -2
+git checkout -b flask
+git commit -a -m "Skip stagged"
+git branch -M main
+git remote add origin https://github.com/oliverwest1/cwh.git
+git remote
+git remote -v
+git push -u origin master
+Type YES
+git push -u origin master
+git remote
+git remote -v
+git push -u origin master
+git checkout flask
+git push -u origin flask
+git clone https://github.com/techloset/mad-batch1 /virus
+
