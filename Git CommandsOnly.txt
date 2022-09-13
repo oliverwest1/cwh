@@ -49,33 +49,26 @@ BRANCHES
 =========================================================
 git branch
 git branch feature1
-git branch*
+git branch
 git checkout feature1
 git branch
 git status
 git checkout master
 git status
-git log -p -2		//check status
-git checkout -b flask	//new branch create and auto switch in new branch
-git commit -a -m "Skip stagged" //for directly commit file from red color
+git log -p -2
+git checkout -b flask
+git commit -a -m "Skip stagged"
 git branch -M main
 git remote add origin https://github.com/oliverwest1/cwh.git
 git remote
 git remote -v
 git push -u origin master
-//if code not push in private repo generate ssh keys... ->Go to the following Link ->https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent -> $ ssh-keygen -t ed25519 -C "your_email@example.com" for UEFI WINDOWS -> $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" FOR LEGASY WIDOWS
-ssh-keygen -t ed25519 -C "adcs-f18-021@superior.edu.pk"
 Type YES
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-//After this go to ->https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account -> Write Cat before ->cat ~/.ssh/id_ed25519.pub ->After this Copy the Whole Key Generated in terminal the -> go to git/setting/SSH and GPG keys ->New SSH key -> past key here
 git push -u origin master
-After this if you see error go to github go to specific repo click on code and copy SSH key
-git remote set-url origin git@github.com:oliverwest1/cwh.git
 git remote
 git remote -v
 git push -u origin master
-git checkout flask //flask is branch name and if we want flask branch push into github then first go into that branch then push
-git push -u origin flask //-u means next time git push likhny se git wahi pr push kry ga jidr -u laga kr branch name lika ho ga
-git clone https://github.com/techloset/mad-batch1 /virus	//virus is optional for folder name create
+git checkout flask
+git push -u origin flask
+git clone https://github.com/techloset/mad-batch1 /virus
 
