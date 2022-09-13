@@ -105,8 +105,11 @@ git branch
 git checkout feature1 	//master branch se feature1 branch main switch krny k liye
 git branch
 git status
+<<<<<<< HEAD
 git checkout master
 git status
+=======
+>>>>>>> feature1
 
 
 
