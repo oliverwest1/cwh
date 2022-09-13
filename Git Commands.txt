@@ -103,11 +103,12 @@ git branch
 git branch feature1 	//add feature1 name branch
 git branch
 git checkout feature1 	//master branch se feature1 branch main switch krny k liye
-git branch
+git branch		//shows in which branch you are
 git status
-git checkout master
+git checkout master	//switch b/w branches
 git status
-git log -p -2
+git log -p -2		//check status
+git checkout -b flask	//new branch create and auto switch in new branch
 
 
 
