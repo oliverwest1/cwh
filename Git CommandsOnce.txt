@@ -40,9 +40,7 @@ BRANCHES
 =========================================================
 git branch
 git branch feature1
-git branch
 git checkout feature1
-git branch
 git checkout master
 git log -p -2
 git checkout -b flask
